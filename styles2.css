@@ -79,7 +79,7 @@ nav{
 }
 .formations{
     display: flex;
-    background-color: white;
+    background-color: black;
     
 }
 /*.card-body{
@@ -106,7 +106,7 @@ h2{
 
 .zone{
     display: inline;
-    background-color: white;
+    background-color: black;
     
 }
 
