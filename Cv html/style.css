@@ -1,0 +1,154 @@
+@import url('https ://fonts.googleapis.com/css2 ?family=Poppins :wght@200 ; 300; 400&display=swap') ;
+*{
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-color:#2f2f30;
+}
+
+section{
+    margin-left: 15%;
+    margin-right: 15%;
+    height: 600px; 
+    margin-top: 150px;
+    padding: 40px 50px;
+    border-radius: 8px ;
+    box-shadow: 0 0 10px rgba(255, 255,255, 0,3);
+    background-color: white;
+}
+header{
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    height: 50px;
+    background-color: #181e9e;
+    width: 100%;
+    z-index: 1000;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+header h1{
+    align-items: center;
+    margin-top: 10px ;
+}   
+
+.entete {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.entete .name p{
+    font-size: 35px ;
+    letter-spacing: 1px ;
+    margin-bottom: 6px ;
+    text-transform: uppercase;
+}
+.entete ul {
+    list-style-type: none;
+}
+.entete li {
+    text-align: right;
+    margin-bottom: 8px;
+}
+.adresse {
+    text-transform: uppercase;
+}
+.entete li i {
+    margin-left: 5px;
+}
+ p{
+    font-size: 15px;
+    text-align: justify;
+    margin-top: 10px ;
+}
+    
+hr{
+    border: solid 1px black;
+    margin-top: 5px;
+}
+.objectif li i {
+    border-radius: 50% ;
+    background-color:rgb(36, 44, 192);
+    font-size: 20px;
+    height: 40px;
+    width: 40px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    color: #fff;
+}
+.objectif li{
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    list-style-type: none;
+}
+.formation{
+    margin-top: 10px ;
+}
+.formation li i{
+    border-radius: 50% ;
+    background-color: #2d3494;
+    /* font-size: 20px; */
+    height: 40px;
+    width: 40px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    color: #fff;
+}
+.formation li{
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    list-style-type: none;
+}
+.competence {
+    margin-top: 10px;
+}
+.competence li i {
+    border-radius: 50% ;
+    background-color: #2d3294;
+    font-size: 20px;
+    height: 40px;
+    width: 40px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    color: #fff;
+}
+.competence li{
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    list-style-type: none;
+}
+.com li {
+    font-size: 15px;
+    text-align: justify;
+    margin-top: 1px ;
+    font-weight: 100;
+    text-transform: none;
+}
+.color {
+    color: #222224;
+    font-weight: bold;
+}
+.formation p{
+    font-weight: bolder;
+}
